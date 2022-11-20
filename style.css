@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: white ;
+    font-family: 'Dancing Script', cursive;
+}
+.image_banner {
+    margin-bottom: 80px;
+    width: 50%;
+    height: 50%;
+    display: block;
+     margin: 0 auto; 
+}
+.red_color {
+    background-image:  radial-gradient(circle, rgb(224, 255, 255), rgb(214, 74, 184));
+}
+.green_color {
+    border: 2px rgb(6, 245, 26) solid;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 80px 0;
+}
+.top_list {
+    background-image: url("images/background.3.jpg");
+    padding: 30px 40px 30px 40px;
+    margin: 0 0 30px 0;
+}
+.bottom_list {
+    background-image: url("images/background.5.jpg");
+    padding: 30px 40px 30px 40px; 
+}
+.my_images {
+    
+    height: 200px;
+    padding: auto ;
+    margin: auto;
+}
+@media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+.info-about {
+    padding: 30px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px chocolate ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-image: url("images/background.jpg");
+    margin: 0 auto;
+}
+.info-about--feature {
+    background-image: url("images/background.1.jpg");
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Inconsolata', monospace;
+}
+.info-title {
+    width: 100%;
+}
+.wrap {
+    width: 1200px;
+    margin: 0 auto; 
+}
+
+
+  .slide {
+      display: flex;
+      justify-content: flex-start;
+  }
+  .nav-list {
+      list-style: none;
+      padding: 0 ;
+      margin: 0 ;
+      display: flex ;
+      justify-content: flex-end;
+  }
+  .nav-item a {
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+      background-color: plum ;
+      border: 1px solid gold;
+      border-radius: 15px;
+      text-align: center;
+  }
+  .nav {
+      padding: 20px 0 ;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  .banner {
+    text-align: center;
+  }
+  img {
+      max-width: 100%;
+  }
+.slider {
+    margin-bottom: 100px;
+}
+.info-about-design {
+    text-align: center;
+}
+@media (max-width: 1024px) {
+    .wrap {
+        max-width: 600px;
+        padding: 0 10px;
+    }
+    .main-title {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+    .info-about {
+        padding: 15px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .info-about-title {
+        margin: 0 0 15px 0;
+        font-size: 16px;
+    }
+    .green_color {
+        margin: 0;
+        font-size: 14px;
+    }
+    .slider {
+        margin-bottom: 100px;
+    }
+}
